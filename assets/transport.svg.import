@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdv1yisbex46r"
-path="res://.godot/imported/transport.svg-9ee83a2b69d17433c2a82e579ed27cfd.ctex"
+path="res://.godot/imported/transport.svg-2bf81b24bb4af085d585ac058f4ea264.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/null_logger/assets/transport.svg"
-dest_files=["res://.godot/imported/transport.svg-9ee83a2b69d17433c2a82e579ed27cfd.ctex"]
+source_file="res://addons/NullLogger/assets/transport.svg"
+dest_files=["res://.godot/imported/transport.svg-2bf81b24bb4af085d585ac058f4ea264.ctex"]
 
 [params]
 
