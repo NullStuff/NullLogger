@@ -3,13 +3,13 @@ extends EditorPlugin
 
 
 func _enter_tree():
-	add_autoload_singleton("NullLogger", "res://addons/null_logger/scripts/null_logger.gd")
+	add_autoload_singleton("NullLogger", "res://addons/NullLogger/scripts/null_logger.gd")
 
-	add_custom_type("Logger", "Node", preload("./scripts/logger.gd"), preload("./assets/logger.svg"))
-	add_custom_type("FormattedLogger", "Logger", preload("./scripts/formatted_logger.gd"), preload("./assets/logger.svg"))
-	add_custom_type("Transport", "Node", preload("./scripts/transport.gd"), preload("./assets/transport.svg"))
-	add_custom_type("FileTransport", "Transport", preload("./scripts/file_transport.gd"), preload("./assets/transport.svg"))
-	add_custom_type("ConsoleTransport", "Transport", preload("./scripts/console_transport.gd"), preload("./assets/transport.svg"))
+	add_custom_type("Logger", "Node", preload("res://addons/NullLogger/scripts/logger.gd"), preload("res://addons/NullLogger/assets/logger.svg"))
+	add_custom_type("FormattedLogger", "Logger", preload("res://addons/NullLogger/scripts/formatted_logger.gd"), preload("res://addons/NullLogger/assets/logger.svg"))
+	add_custom_type("Transport", "Node", preload("res://addons/NullLogger/scripts/transport.gd"), preload("res://addons/NullLogger/assets/transport.svg"))
+	add_custom_type("FileTransport", "Transport", preload("res://addons/NullLogger/scripts/file_transport.gd"), preload("res://addons/NullLogger/assets/transport.svg"))
+	add_custom_type("ConsoleTransport", "Transport", preload("res://addons/NullLogger/scripts/console_transport.gd"), preload("res://addons/NullLogger/assets/transport.svg"))
 
 
 func _exit_tree():

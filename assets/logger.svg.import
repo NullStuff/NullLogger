@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnmleu8egqwfe"
-path="res://.godot/imported/logger.svg-79458fcac3df8808bfbf4ac4f7be89fb.ctex"
+path="res://.godot/imported/logger.svg-bef2aa52025b23f4c506f8d79d1dabb4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/null_logger/assets/logger.svg"
-dest_files=["res://.godot/imported/logger.svg-79458fcac3df8808bfbf4ac4f7be89fb.ctex"]
+source_file="res://addons/NullLogger/assets/logger.svg"
+dest_files=["res://.godot/imported/logger.svg-bef2aa52025b23f4c506f8d79d1dabb4.ctex"]
 
 [params]
 
