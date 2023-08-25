@@ -1,4 +1,4 @@
-class_name Logger extends Node
+extends Node
 ## A Node which manages logging to a list of transports.
 ##
 ## Loggers will run from _init() and are intended to be used as singletons in your project's
@@ -83,7 +83,7 @@ func verbose(message: String):
     send_log(message, NullLogger.Level.VERBOSE)
 
 
-## Push a log message to all Transports 
+## Push a log message to all Transports
 func send_log(message: String, level: NullLogger.Level = NullLogger.Level.INFO):
     if level <= log_level:
         for transport in transports:

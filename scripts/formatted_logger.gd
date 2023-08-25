@@ -1,4 +1,4 @@
-class_name FormattedLogger extends Logger
+extends Logger
 ## A Logger which uses a format string for prettier output.
 ##
 ## Loggers will run from _init() and are intended to be used as singletons in your project's

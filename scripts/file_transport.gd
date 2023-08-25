@@ -1,4 +1,4 @@
-class_name FileTransport extends Transport
+extends Transport
 ## A Transport which outputs logs to a log file.
 ##
 ## The transport will fail if another FileTransport already has the logfile open, therefore it is
@@ -21,13 +21,13 @@ func _init():
     _open_log_file()
 
 
-func push(log: String, level):
+func push(message: String, _level = NullLogger.Level.INFO):
     if _log_file == null:
         push_error("Log file lost? Trying to find it again...")
         if !_open_log_file():
             return
 
-    _log_file.store_line(log)
+    _log_file.store_line(message)
 
 
 ## Returns true if opening the file succeeded, or false if it did not.

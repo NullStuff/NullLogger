@@ -1,4 +1,4 @@
-class_name ConsoleTransport extends Transport
+extends Transport
 ## A Transport which prints logs to the console.
 ##
 ## This Transports does not need to be used as a singleton, but it is recommended to for simplicity.
@@ -10,8 +10,8 @@ class_name ConsoleTransport extends Transport
 @export var use_stderr := true
 
 
-func push(log: String, level):
+func _push(message: String, level):
     if use_stderr and level == NullLogger.Level.ERROR:
-        printerr(log)
+        printerr(message)
     else:
-        print(log)
+        print(message)

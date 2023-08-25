@@ -1,4 +1,4 @@
-class_name Transport extends Node
+extends Node
 ## Abstract base class for Transports. Does not do anything on it's own.
 ##
 ## Many Transports are intended to be used as singletons in your project's 'autoruns'. This way they
@@ -8,6 +8,6 @@ class_name Transport extends Node
 
 
 ## Method that needs to be overridden by child classes to handle logging a message.
-func push(log: String, level):
+func _push(_message: String, _level):
     push_error("Transport nodes are an abstract class and therefore do not implement any functionality. You are likely looking for a child class such as FileTransport or ConsoleTransport")
     return
