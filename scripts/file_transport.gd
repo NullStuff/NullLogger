@@ -6,6 +6,7 @@ extends Transport
 ## logger which should output to the console.
 
 
+@export_category("File Transport")
 ## Path to store log files.
 @export_dir var logging_path := "user://logs/"
 ## Format for the saved log's filename. Formats are available: [br]

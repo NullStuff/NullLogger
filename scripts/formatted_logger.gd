@@ -16,6 +16,7 @@ enum Time_Mode {
 }
 
 
+@export_category("Formatted Logger")
 ## Format for each logged message. Formats are available: [br]
 ##     {timestamp} is replaced by the logged time using the time format. [br]
 ##     {label} is replaced by the label provided for that message, or the default label. [br]

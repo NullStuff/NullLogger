@@ -6,6 +6,7 @@ extends Transport
 ## logs to the editor's console and your applications stdout and stderr respectivley.
 
 
+@export_category("Console Transport")
 ## Wether or not to print error level logs to the standard error instead of standard output.
 @export var use_stderr := true
 
