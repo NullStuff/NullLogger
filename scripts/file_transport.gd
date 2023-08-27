@@ -1,4 +1,4 @@
-extends Transport
+class_name FileTransport extends Transport
 ## A Transport which outputs logs to a log file.
 ##
 ## The transport will fail if another FileTransport already has the logfile open, therefore it is

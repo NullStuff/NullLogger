@@ -1,4 +1,4 @@
-extends Node
+class_name Transport extends Node
 ## Abstract base class for Transports. Does not do anything on it's own.
 ##
 ## Many Transports are intended to be used as singletons in your project's 'autoruns'. This way they

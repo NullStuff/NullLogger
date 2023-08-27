@@ -1,4 +1,4 @@
-extends Node
+class_name Logger extends Node
 ## A Node which manages logging to a list of transports.
 ##
 ## Loggers will run from _init() and are intended to be used as singletons in your project's

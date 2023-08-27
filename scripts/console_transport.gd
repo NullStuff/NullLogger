@@ -1,4 +1,4 @@
-extends Transport
+class_name ConsoleTransport extends Transport
 ## A Transport which prints logs to the console.
 ##
 ## This Transports does not need to be used as a singleton, but it is recommended to for simplicity.
